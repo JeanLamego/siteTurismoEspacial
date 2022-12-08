@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   
   <title>Viagem Espacial</title>
@@ -15,10 +15,10 @@
       <img src="./assets/shared/logo.svg" alt="Desenho de uma estrela">
       <button><img src="./assets/shared/icon-hamburger.svg" alt="Três listras na horizontal"></button>
       <div class="nav-bar">
-        <a href="">home</a>
+        <a href="#">home</a>
         <a href="./html/destinos.html">destinos</a>
-        <a href="">equipe</a>
-        <a href="">tecnologia</a>
+        <a href="./html/equipe.html">equipe</a>
+        <a href="./html/tecnologia.html">tecnologia</a>
       </div>
       
     </nav>
@@ -33,14 +33,5 @@
     
   </main>
   
-  <script>
-    let moonInfo = document.querySelector('#planet-container');
-
-fetch("data.json").then((response)=>{
-    response.json().then((destinations)=>{
-        console.log("destinations");
-    })
-})
-  </script>
 </body>
 </html>
