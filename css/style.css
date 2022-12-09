@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif;
+font-family: 'Space Mono', monospace; */
+
+body{
+    background-image:url("/assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    color: white;
+    margin: 1em;
+        
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    display: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    /* display: block;
+    position: absolute; */
+    width: calc(100% - 9rem);
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    
+}
+
+.nav-bar a {    
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    font-size: 1.5em;
+    padding: 2em 0 0 1.3em ;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+.nav-bar  b{
+    font-weight: 400;
+}
+.menu-btn{
+    background: none;
+    cursor: pointer;
+}
+.close-bar{
+    position: relative;
+    width:calc(100% + 5em);
+    background: none;
+    border: none;
+    margin-top: 1em;
+    cursor:pointer;
+}
+
+
+.mission{
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    
+}
+.mission h2{
+    font-size: 1em;
+    font-weight: 500;
+    
+}
+.mission h1{
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 5em;
+    margin: .2em 0;
+}
+.mission p{
+    text-transform: none;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    line-height: 1.5em;
+    
+}
+
+.explore-button{
+    font-family: 'Bellefair', serif;
+    margin-top: 2em;
+    border-radius: 100%;
+    border: none;
+    background: white;
+    width: 7em;
+    height: 7em;
+    font-size: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}

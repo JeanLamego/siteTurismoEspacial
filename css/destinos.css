@@ -1,0 +1,102 @@
+body{
+    background-image: url("../assets/destination/background-destination-mobile.jpg");
+    background-size: cover;
+    margin:1em;
+}
+
+
+.planet-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.destination-paragraph{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3em;
+
+}
+.destination-paragraph span{
+    
+    margin-right: .8em;
+    font-weight: 400;
+    color: gray;
+
+}
+.planet-container img{
+    width: 12em;
+    margin-top: 1em;
+}
+
+.destiny-list-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+    
+}
+.destiny-btn{
+    font-family: 'Barlow Condensed', sans-serif;
+    border:none;
+    background:none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.planet-informations-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 60vh;
+
+}
+.planet-informations{
+    border-bottom: 1px solid grey;
+    width: 90vw;
+    margin: 0 auto;
+}
+.planet-informations h2{
+    font-family: 'Bellefair', serif;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.5em 0 0.2em 0;
+    
+}
+.planet-informations p{
+    text-align: center;
+    text-transform: none;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-weight:400;
+    line-height: 1.5em;
+}
+
+.planet-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    text-transform: uppercase;
+    
+}
+.planet-data p{
+    font-family: 'Barlow', sans-serif;
+    font-size: .8em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.planet-data h2{
+    font-family: 'Bellefair', serif;
+    font-size: 2em;
+    font-weight: 400;
+    
+    
+    margin-top:.3em;
+    text-align:center
+}
