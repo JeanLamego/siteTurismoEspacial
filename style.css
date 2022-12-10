@@ -11,6 +11,7 @@ body{
     color: white;
     margin: 1em;
     overflow-x: hidden;
+    height: 100vh;
         
     
 }
@@ -30,10 +31,12 @@ body{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(10px);
     
+    
 }
 .nav-bar.mostra{
     display: block;
     position: absolute;
+    z-index: 100;
 }
 
 .nav-bar a {    

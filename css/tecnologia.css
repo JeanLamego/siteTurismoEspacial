@@ -1,0 +1,90 @@
+body{
+    background-image:url("../assets/technology/background-technology-mobile.jpg");
+    
+    color: white;
+    margin: 1em;
+    overflow-x: hidden;
+  
+}
+.tec-container h1{
+    
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.tec-container span{
+    margin-right: .7em;
+    color: grey;
+}
+
+.img-container{
+    background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+    height: 20vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    right: 1em;
+    background-position: center;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+ul button {
+    border: 1px solid grey;
+    background: none;
+    color: white;
+    width: 40px;
+    height: 40px;  
+    border-radius: 100%;
+}
+ul button:hover{
+    background: white;
+    color: black;
+}
+
+.tec-informations-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+}
+.tec-informations{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    
+    text-transform:uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+.tec-informations h1{
+    font-size: .85em;
+    font-weight: 400;
+    margin-bottom: .5em;
+    color:#D0D6F9
+}
+.tec-informations h2 {
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.tec-description {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.7em;
+    color: #D0D6F9;
+}
+
+    
+    
+    
+    

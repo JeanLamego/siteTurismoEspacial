@@ -7,18 +7,13 @@
 // })
 
 const navBar = document.querySelector('.nav-bar');
-const closeBar = document.querySelector('.nav-button.mostra');
+const openBtn = document.querySelector('.menu-btn');
+const closeBtn = document.querySelector('.close-bar');
 
-// const closeBtn= addEventListener('click', function(){
-//     navBar.classList.toggle("mostra");
-// })
-const closeBtn=addEventListener('click', function(){
-    closeBar.classList.toggle("");
+closeBtn.addEventListener('click', function(){
+    navBar.classList.toggle("mostra");
 })
 
-const openBtn= addEventListener('click', function(){
+openBtn.addEventListener('click', function(){
 navBar.classList.toggle("mostra");
 })
-// $('.menu-btn').click(function(){
-// $('.nav-bar').toggleClass('mostra')
-// });
