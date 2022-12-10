@@ -6,7 +6,7 @@ font-family: 'Bellefair', serif;
 font-family: 'Space Mono', monospace; */
 
 body{
-    background-image:url("/assets/home/background-home-mobile.jpg");
+    background-image:url("./assets/home/background-home-mobile.jpg");
     background-size: cover;
     color: white;
     margin: 1em;
