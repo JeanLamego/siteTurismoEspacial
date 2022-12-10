@@ -10,6 +10,7 @@ body{
     background-size: cover;
     color: white;
     margin: 1em;
+    overflow-x: hidden;
         
     
 }
@@ -21,8 +22,7 @@ body{
 .nav-bar{
     display: none;
     font-family: 'Barlow Condensed', sans-serif;
-    /* display: block;
-    position: absolute; */
+    position: absolute;
     width: calc(100% - 9rem);
     height: 100%;
     left: 50%;
@@ -30,6 +30,10 @@ body{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(10px);
     
+}
+.nav-bar.mostra{
+    display: block;
+    position: absolute;
 }
 
 .nav-bar a {    
@@ -46,14 +50,15 @@ body{
 }
 .menu-btn{
     background: none;
+    border: none;
     cursor: pointer;
 }
 .close-bar{
     position: relative;
-    width:calc(100% + 5em);
+    width:calc(100% + 5.9em);
     background: none;
     border: none;
-    margin-top: 1em;
+    margin-top: 2em;
     cursor:pointer;
 }
 
