@@ -1,4 +1,4 @@
-<h1 align="center"> Site sobre viagem espacial </h1>
+<h1 align="center"> Site Viagem Espacial (Em desenvolvimento)</h1>
 
 <p align="center">
 Projeto sobre um site de viagem espacial com responsividade para mobile, web e tablet. O intuito desse projeto é a prática do consumo de API,praticar minha lógica e dominio com Javascript DOM
